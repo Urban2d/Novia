@@ -251,7 +251,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
                 document.getElementById('sadGifContainer').style.display = 'none';
                 document.getElementById('sadGifContainer1').style.display = 'none';
                 document.getElementById('sadGifContainer2').style.display = 'none';
-                document.getElementById('gifContainer').style.display = 'block';
+                document.getElementById('sadGifContainerUltimo').style.display = 'block';
                 document.getElementById('happyGifContainer').style.display = 'none';
                 // Vuelve al estado 0
                 noButtonState = 0;
