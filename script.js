@@ -47,6 +47,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('happyGifContainer').style.display = 'none';
             document.getElementById('gifContainer').style.display = 'none';
             document.getElementById('sadGifContainer').style.display = 'block';
+            document.getElementById('sadGifContainerUltimo').style.display = 'none';
 
             // Modificar el botón "No"
             document.getElementById('noBtn').innerHTML = '¡Oh no! ¿Estás segura?';
